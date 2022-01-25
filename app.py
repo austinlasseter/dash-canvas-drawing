@@ -1,4 +1,6 @@
 import dash
+from dash import html
+from dash import dcc
 from api_keys.myapikey  import apikey
 
 
@@ -9,7 +11,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div([
     html.H1('Welcome to the app'),
-    html.H3(f'my api key is: {apikey}'),
+    html.H3(f'my api key is: {str(apikey)}'),
 
 ], className='container')
 

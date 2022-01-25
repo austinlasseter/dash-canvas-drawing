@@ -1,5 +1,6 @@
 # new stuff
 api_keys/
+env/
 .DS_Store
 
 # Byte-compiled / optimized / DLL files
